@@ -12,7 +12,6 @@
   "repository": "https+git@github.com:pulsovi/task-syncer.git",
   "author": "David GABISON <david.gabison@outlook.com>",
   "license": "MIT",
-  "private": true,
   "scripts": {
     "build": "rm -rf ./bin && rm -rf ./lib && yarn babel src --out-dir . --extensions \".ts\"",
     "commit-msg": "yarn fix-with-test",
