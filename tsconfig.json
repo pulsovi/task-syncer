@@ -2,7 +2,9 @@
   "extends": "@tsconfig/node14/tsconfig.json",
   "include": ["src/**/*", "tests/**/*"],
   "compilerOptions": {
-    "resolveJsonModule": true,
-    "allowSyntheticDefaultImports": true
+    "lib": ["es2021"],
+    "target": "es2021",
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true
   }
 }
