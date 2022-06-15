@@ -2,12 +2,10 @@ import EventEmitter from 'events';
 
 import 'core-js/actual/aggregate-error';
 
-import type { SyncOrPromise } from '../types';
+import { getDeferredPromise } from './util';
+import type { DeferredPromise } from './util';
 
-import { getDeferredPromise } from './deferredPromise';
-import type { DeferredPromise } from './deferredPromise';
-
-export class TaskSyncer extends EventEmitter {
+export default class TaskSyncer extends EventEmitter {
   public readonly done: Promise<void>;
 
   private readonly deferredDone: DeferredPromise<void>;

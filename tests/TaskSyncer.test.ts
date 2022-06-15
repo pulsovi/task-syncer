@@ -1,4 +1,4 @@
-import { TaskSyncer } from '../../src/lib/util/TaskSyncer';
+import TaskSyncer from '../src/lib';
 
 describe('TaskSyncer', () => {
   describe('getTicket', () => {
