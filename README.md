@@ -1,10 +1,10 @@
-# Anki Pug
+# TaskSyncer
 
-Provide a CLI app with some commands to manage your Anki models templated with Pug
+Provide a ticket like API for syncing asynchronous tasks
 
 ## Installation
 
-`npm install --save anki-pug`
-
-`echo 'modelsPath: ./model' > ./.ankipugrc`
+`npm install --save task-syncer`
+OR
+`yarn add task-syncer`
 
