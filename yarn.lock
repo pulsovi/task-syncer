@@ -2094,29 +2094,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"anki-pug@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "anki-pug@workspace:."
-  dependencies:
-    "@babel/cli": ^7.17.10
-    "@babel/core": ^7.18.5
-    "@babel/preset-env": ^7.18.2
-    "@babel/preset-typescript": ^7.17.12
-    "@tsconfig/node14": ^1.0.2
-    "@types/jest": ^28.1.1
-    "@typescript-eslint/parser": ^5.28.0
-    core-js: ^3.23.1
-    eslint: ^8.17.0
-    eslint-config-pulsovi-typescript: ^0.3.8
-    jest: ^28.1.1
-    jest-extended: ^2.0.0
-    typescript: ^4.7.3
-  bin:
-    anki-pug: bin/anki-pug.js
-    fix-with-test: bin/fix-with-test.js
-  languageName: unknown
-  linkType: soft
-
 "ansi-escapes@npm:^4.2.1":
   version: 4.3.2
   resolution: "ansi-escapes@npm:4.3.2"
@@ -5898,6 +5875,26 @@ __metadata:
   checksum: a04c07bb9e2d8f46776517d4618f2406fb977a74d914ad98b264fc3db0fe8224da5bec11e5f8902c5b9bcb8ace22d95fbe3c7b36b8593b7dfc8391a25898f32f
   languageName: node
   linkType: hard
+
+"task-syncer@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "task-syncer@workspace:."
+  dependencies:
+    "@babel/cli": ^7.17.10
+    "@babel/core": ^7.18.5
+    "@babel/preset-env": ^7.18.2
+    "@babel/preset-typescript": ^7.17.12
+    "@tsconfig/node14": ^1.0.2
+    "@types/jest": ^28.1.1
+    "@typescript-eslint/parser": ^5.28.0
+    core-js: ^3.23.1
+    eslint: ^8.17.0
+    eslint-config-pulsovi-typescript: ^0.3.8
+    jest: ^28.1.1
+    jest-extended: ^2.0.0
+    typescript: ^4.7.3
+  languageName: unknown
+  linkType: soft
 
 "terminal-link@npm:^2.0.0":
   version: 2.1.1
