@@ -1,6 +1,6 @@
 {
   "name": "task-syncer",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "command that show and possibly merge diff between your pug model and html template",
   "main": "lib/index.js",
   "types": "types",
@@ -26,8 +26,7 @@
   },
   "packageManager": "yarn@3.2.1",
   "dependencies": {
-    "core-js": "^3.23.1",
-    "lint-staged": "^13.0.3"
+    "core-js": "^3.23.1"
   },
   "devDependencies": {
     "@babel/cli": "^7.17.10",
@@ -41,6 +40,7 @@
     "eslint-config-pulsovi-typescript": "^0.3.8",
     "jest": "^28.1.1",
     "jest-extended": "^2.0.0",
+    "lint-staged": "^13.0.3",
     "typescript": "^4.7.3"
   }
 }
