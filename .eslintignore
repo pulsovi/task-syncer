@@ -1,5 +1,2 @@
-/.coverage/**/*
-/jest.config.js
-/lib/**/*
-/bin/**/*
-*.md
+/lib/
+/types/

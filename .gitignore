@@ -5,8 +5,10 @@ node_modules/
 .coverage/
 
 # Babel compiled files
-/bin/
 /lib/
+
+# Typescript compiled files
+/types/
 
 # Sublime files
 *.sublime-workspace

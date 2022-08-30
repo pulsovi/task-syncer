@@ -1,8 +1,8 @@
-"**/*.js":
+"*.js":
   - "yarn eslint --fix"
-"**/*.test.ts":
+"*.test.ts":
   - "yarn eslint --fix"
   - "yarn jest --bail"
-"**/*!(test).ts":
+"*!(test).ts":
   - "yarn eslint --fix"
   - "yarn jest --bail --findRelatedTests"

@@ -1,10 +1,12 @@
 {
   "name": "task-syncer",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "command that show and possibly merge diff between your pug model and html template",
   "main": "lib/index.js",
+  "types": "types",
   "files": [
-    "lib"
+    "lib",
+    "types"
   ],
   "engines": {
     "node": ">=14"
@@ -16,14 +18,16 @@
     "build": "rm -rf ./bin && rm -rf ./lib && yarn babel src --out-dir . --extensions \".ts\"",
     "commit-msg": "yarn fix-with-test",
     "debug-tests": "yarn node --stack-trace-limit=100 --trace-warnings --async-stack-traces $(yarn bin jest)",
-    "lint": "eslint .",
+    "emit-types": "rm -rf ./types && tsc --project tsconfig.types.json",
+    "lint": "yarn eslint .",
     "pre-commit": "yarn lint-staged",
-    "prepack": "yarn build",
+    "prepack": "yarn build && yarn emit-types",
     "test": "jest"
   },
   "packageManager": "yarn@3.2.1",
   "dependencies": {
-    "core-js": "^3.23.1"
+    "core-js": "^3.23.1",
+    "lint-staged": "^13.0.3"
   },
   "devDependencies": {
     "@babel/cli": "^7.17.10",
